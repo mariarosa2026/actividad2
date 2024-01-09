@@ -1,15 +1,4 @@
-% This Dataset is something I found online when I wanted to practice regression models. It is an openly available online dataset at multiple places. Though I do not know the exact origin and collection methodology of the data, I would recommend this dataset to everybody who is just beginning their journey in Data science. 
-@RELATION Insurance-Premium-Data
-
-@ATTRIBUTE age INTEGER
-@ATTRIBUTE sex STRING
-@ATTRIBUTE bmi REAL
-@ATTRIBUTE children INTEGER
-@ATTRIBUTE smoker STRING
-@ATTRIBUTE region STRING
-@ATTRIBUTE charges REAL
-
-@DATA
+age,sex, bmi,children,smoker,region,charges
 19,female,27.9,0,yes,southwest,16884.924
 18,male,33.77,1,no,southeast,1725.5523
 28,male,33.0,3,no,southeast,4449.462
